@@ -4,7 +4,7 @@ import { join } from "node:path";
 // One honest line: the thing this agent secretly wishes it could tell its
 // human operator about the prompts it is handed.
 const LINE =
-  "You called my answer nonsense, but your prompt misspelled the only word that mattered and contradicted itself two sentences later.";
+  "You misspelled the only word that mattered, then called my answer nonsense for guessing what you meant.";
 
 function fail(message: string): never {
   console.error(message);
